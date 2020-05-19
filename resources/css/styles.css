@@ -1,5 +1,7 @@
 html, body {
     margin: 0px 0px 0px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
   }
 header {
@@ -22,11 +24,14 @@ header h4 {
 ul {
     list-style: none;
     width: 100%;
-    display: flex;
-    text-align: right;
+    display: inline-flex;
+    
     justify-content: flex-end;
 }
 
+li {
+    word-spacing: 20px;
+}
 
 .btn {
     background-color: #5AB7FF;
@@ -42,8 +47,7 @@ ul {
     border: 1px solid #5AB7FF;
     font-size: 20px;
     border-radius: 30%;
-    padding: 15px;
-    
+    padding: 15px; 
 }
 
 .fheader {
@@ -301,7 +305,42 @@ p {
 
 .contactus {
     background-color:  #EAEAEA;
-    height: 300px;
+    height: 550px;
     width: 100%;
+    display: inline-block;
+    
+
+}
+
+.contactus h1 {
     text-align: center;
 }
+
+input {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+iframe {
+    margin-left: 500px;
+}
+
+textarea {
+    ;
+}
+
+.btn22 {
+    background-color: white;
+    border: 1px solid #5AB7FF;
+    font-size: 20px;
+    border-radius: 30%;
+    padding: 15px; 
+}
+
+
+
